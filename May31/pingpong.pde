@@ -40,7 +40,7 @@ class Ball {
   }
 }
 
-// class for the ball
+// class for the player
 class Player {
   float xpos = 40;
   float ypos = height/2;
