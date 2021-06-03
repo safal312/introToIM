@@ -6,5 +6,6 @@ I was inspired by Professor Sherwood's project too, so I wanted to do something 
 I made use of the processing functions and classes to create this vein-like randomized art.  
 It looks very organic, like something that is growing in nature.
 
-Here is a gif of how it works:  
+Here is a gif of how it works:
+
 ![](veins.gif)
