@@ -6,19 +6,19 @@ When provided with any image (I chose abstract art), the sketch converts the ima
 I got some interesting results. The first is the image and the second is the output in each of the following sections.
 
 ### Image 1: 
-<img width="500px" src="image.jpg"> ![](out.jpg)
+<img width="500px" src="images/image.jpg"> ![](outputs/out.jpg)
 
 ### Image 2:
-<img width="500px" src="image2.jpg"> ![](out2.jpg)
+<img width="500px" src="images/image2.jpg"> ![](outputs/out2.jpg)
 
 ### Image 3:
-<img width="500px" src="image3.jpg"> ![](out3.jpg)
+<img width="500px" src="images/image3.jpg"> ![](outputs/out3.jpg)
 
 ### Image 4:
-<img width="500px" src="image4.jpg"> ![](out4.jpg)
+<img width="500px" src="images/image4.jpg"> ![](outputs/out4.jpg)
 
 ### Image 5:
-<img height="300px" src="image5.jpg"> ![](out5.jpg)
+<img height="300px" src="images/image5.jpg"> ![](outputs/out5.jpg)
 
 ### Image 6:
-<img width="500px" src="image6.jpg"> ![](out6.jpg)
+<img width="500px" src="images/image6.jpg"> ![](outputs/out6.jpg)
