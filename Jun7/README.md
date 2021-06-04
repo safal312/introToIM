@@ -5,14 +5,14 @@ When provided with any image (I chose abstract art), the sketch converts the ima
 
 Some of the outputs that I got are below:
 
-![](image.jpg) ![](out.jpg)
+<img width="500px" src="image.jpg"> ![](out.jpg)
 
-![](image.2jpg) ![](out.jpg)
+<img width="500px" src="image2.jpg"> ![](out2.jpg)
 
-![](image3.jpg) ![](out.jpg)
+<img width="500px" src="image3.jpg"> ![](out3.jpg)
 
-![](image4.jpg) ![](out.jpg)
+<img width="500px" src="image4.jpg"> ![](out4.jpg)
 
-![](image5.jpg) ![](out.jpg)
+<img width="500px" src="image5.jpg"> ![](out5.jpg)
 
-![](image6.jpg) ![](out.jpg)
+<img width="500px" src="image6.jpg"> ![](out6.jpg)
