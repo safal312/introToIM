@@ -22,4 +22,4 @@ boolean collides() {
 
 I've also added gravity to the game, but it is going to be a bit tricky since I'll be changing the gravity in four different ways. I'm planning to work on that and the game Controls next. This is what it looks like until now.
 
-![]("docImages/jun9-gameShot.png")
+![](docImages/jun9-gameShot.png)
