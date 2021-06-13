@@ -5,12 +5,12 @@ LED puzzle: SOS morse code
 */
 
 // pins for the two switches
-int redPushButton = A2;
-int yellowPushButton = 4;
+const int redPushButton = A2;
+const int yellowPushButton = 4;
 
 // pins for the two wires for the led
-int redPin = 13;
-int yellowPin = 8;
+const int redPin = 13;
+const int yellowPin = 8;
 
 // string to hold the value pressed on arduino: redPush is 1 and yellowPush is 0
 String output = "";
