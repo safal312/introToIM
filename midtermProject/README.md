@@ -44,7 +44,7 @@ In this game, you have to collect all the orbs in a limited time. Mainly, there 
 
 The orbs are of different colors.
 
-![](docImages/blue-orb.png) ![](docImages/green-orb.png) ![](yellow-orb.png)
+![](images/blue-orb.png) ![](images/green-orb.png) ![](images/yellow-orb.png)
 
 I just wanted a bit of variety in the colors.
 
