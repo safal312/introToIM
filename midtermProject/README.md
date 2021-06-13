@@ -26,6 +26,7 @@ I've also added gravity to the game, but it is going to be a bit tricky since I'
 
 ### June 13:
 #### DAY OF COMPLETION
+Link to Gameplay: https://youtu.be/XGgvuAC-4HE
 
 #### Game Concept
 I stayed true to the original concept that I came up with on June 9, but I changed the game dynamics a bit. Now, the player needs to collect the orbs before a certain amount of time. Otherwise, they lose. There were a lot of complications while implementing this gravity manipulation concept, but it worked out at the end.
