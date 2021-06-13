@@ -76,7 +76,7 @@ if (orientation == 0) {
 ```
 
 #### Font
-I'm using a retro font that I found in ![dafont.com](https://www.dafont.com/press-start-2p.font)
+I'm using a retro font that I found in [dafont.com](https://www.dafont.com/press-start-2p.font)
 
 #### Sounds
 I'm using the minim library to take care of the sounds in the game. There are two sounds, one for the background and the other for picking up the orbs. The background sound keeps playing in a loop. 
