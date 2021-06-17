@@ -8,4 +8,4 @@ In this project, I've made an arrangement where there are two leds. The job of t
 
 ![](project.jpg)
 
-When the blue light is turned on, the LDR's reading increases and the blinking in the red LED happens faster. The brightness of the red LED corresponds to the reading from the LDR as well. I achieved the fast faded/blinking effect by changing the increment with which the LED's brightness increases. 
+When the blue light is turned on, the LDR's reading increases and the blinking in the red LED happens faster. The brightness of the red LED corresponds to the reading from the LDR as well. I achieved the fast faded/blinking effect by changing the increment with which the LED's brightness increases and decreases. 
