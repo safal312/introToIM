@@ -5,3 +5,12 @@ My inspiration comes from games like these: https://www.youtube.com/watch?v=ykKo
 
 ## July 1:
 I'll be building off of the AuidoIn example given in processing. The idea is pretty straightforward. Today, I plan to finish the basic dynamics of the game. Moreover, I plan to start sketching a rough plan of how the circuit is going to look like.
+
+## July 3:
+I made some changes to the final project. Rather than making a game, I decided to make an Audio visualizer. More than an Audio visualizer, the idea behind the project is to make it a 'Performance Visualizer'. 
+
+The project is going to be 3D. The audio is visualized with the help of moving spherical objects. I am taking the audio input from the user and using the built-in Fast Fourier Transform method to get information about each single frequency. Then, the frequency is mapped to the z-index of the spherical objects. The color of the background changes and the grid of spherical objects rotates as the audio is played.
+
+![](images/july3.jpg)
+
+In terms of the arduino circuit, I'm going to use the distance sensor to space out the distance between the spheres. Moreover, I'll try to map out the color of the background with a RGB light on the arduino.
