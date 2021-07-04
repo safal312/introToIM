@@ -11,6 +11,8 @@ I made some changes to the final project. Rather than making a game, I decided t
 
 The project is going to be 3D. The audio is visualized with the help of moving spherical objects. I am taking the audio input from the user and using the built-in Fast Fourier Transform method to get information about each single frequency. Then, the frequency is mapped to the z-index of the spherical objects. The color of the background changes and the grid of spherical objects rotates as the audio is played.
 
+My inspiration for the art style of the project comes from this video: https://youtu.be/WEBOTRboXBE
+
 ![](images/july3.jpg)
 
 In terms of the arduino circuit, I'm going to use the distance sensor to space out the distance between the spheres. Moreover, I'll try to map out the color of the background with a RGB light on the arduino.
