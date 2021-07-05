@@ -16,3 +16,6 @@ My inspiration for the art style of the project comes from this video: https://y
 ![](images/july3.jpg)
 
 In terms of the arduino circuit, I'm going to use the distance sensor to space out the distance between the spheres. Moreover, I'll try to map out the color of the background with a RGB light on the arduino.
+
+July 5:
+Finished most of the serial communication today. I am getting all the required values both in processing and arduino. The color of the RGB light changes as the background color of the visualizer changes in processing. I faced some issues while parsing the r, g, b integer values, but I figured it out at the end. All that's left now is to make changes in processing with the values that I'm getting from arduino right now.
