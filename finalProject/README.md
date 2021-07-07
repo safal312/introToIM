@@ -1,6 +1,7 @@
 # Performance Visualizer
 
 Working Video: https://youtu.be/UFdXePEe8Yk
+Working Video 2: https://youtu.be/ESUuAlLhuow
 
 ## Images
 ![](images/screenshot.png)
@@ -58,5 +59,5 @@ r = c >> 16 & 0xFF;
 g = c >> 8 & 0xFF;
 b =  c & 0xFF;
 ```
-...and send it to arduino.
+...and sends it to arduino.  
 ```myPort.write(int(r) + "," + int(g) + "," + int(b)+"\n");```
