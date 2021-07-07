@@ -13,19 +13,19 @@ My inspiration for the art style of the project comes from this video: https://y
 ![](images/circuit.jpg)
 ![](images/schematic.jpg)
 
-✅Analog Read
-✅Analog Write
-✅Digital Read
-✅Digital Write
+✅Analog Read  
+✅Analog Write  
+✅Digital Read  
+✅Digital Write  
 
 The arduino sketch consists of one LDR sensor, a switch, a RGB light, and a red LED light. When the switch is pressed, the arduino goes into the "on" state, and the processing sketch starts taking input from the environment. The red LED light is turned on when the processing sketch is paused, and it turns off when we continue the visualization by pressing the switch. The LDR sensor sends the light data to processing. Moreover, the RGB light corresponds to the background color of the processing sketch that keeps changing.
 
 ## In processing...
 
-✅Drawing with primitives
-✅Transformations
-✅Animation
-✅Sound
+✅Drawing with primitives  
+✅Transformations  
+✅Animation  
+✅Sound  
 
 The processing sketch makes use of the sound library to take user input. Then, the sketch analyzes the audio by using the built-in Fast Fourier Transform(FFT) method.
 ```
@@ -49,3 +49,14 @@ if (gameState == 0) {
 }
 ```
 Here, gameState is the value sent by arduino. The value of `gameState` determines whether or not we'll be performing any kind of changes to the spheres.
+
+The directional light on the spheres changes depending on the cursor.
+
+At the end, we extract the r, g, b values from the background color...
+```
+r = c >> 16 & 0xFF;
+g = c >> 8 & 0xFF;
+b =  c & 0xFF;
+```
+...and send it to arduino.
+```myPort.write(int(r) + "," + int(g) + "," + int(b)+"\n");```
