@@ -59,5 +59,5 @@ r = c >> 16 & 0xFF;
 g = c >> 8 & 0xFF;
 b =  c & 0xFF;
 ```
-...and sends it to arduino.  
+...and send it to arduino.  
 ```myPort.write(int(r) + "," + int(g) + "," + int(b)+"\n");```
