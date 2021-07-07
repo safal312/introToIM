@@ -3,9 +3,9 @@
 Working Video: https://youtu.be/UFdXePEe8Yk
 
 ## Images
-![](screenshot.png)
-![](circuit.jpg)
-![](schematic.jpg)
+![](images/screenshot.png)
+![](images/circuit.jpg)
+![](images/schematic.jpg)
 
 ## Description
 In this project, I'm visualizing audio in 3D space in processing. Moreover, the visualization depends on the environment as well. There is an LDR sensor connected to the arduino which provides data to the processing sketch. This sensor can simulate lights getting turned off in the club for example. 
