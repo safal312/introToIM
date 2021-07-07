@@ -61,3 +61,6 @@ b =  c & 0xFF;
 ```
 ...and send it to arduino.  
 ```myPort.write(int(r) + "," + int(g) + "," + int(b)+"\n");```
+
+## Conclusion
+This project was really fun. I wanted to learn more about 3D in processing, and making this project helped me get a good understanding of it. 
