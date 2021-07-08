@@ -95,7 +95,7 @@ void draw() {
   for (int i = 0; i < tiles; i++) {
     for (int j = 0; j < tiles; j++) {
       if (i * tiles + j < spectrum.length) {
-        \
+        
         // mapping the frequency value from 0 to 200
         int size = (int)map(spectrum[counter], 0, 0.1, 0, 200);
         int z = constrain(size, 0, 200);
